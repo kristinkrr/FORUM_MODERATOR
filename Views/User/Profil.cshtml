@@ -1,0 +1,18 @@
+@model MyMvcApp.Models.User
+
+<h2>Профил</h2>
+
+<table class="table">
+    <tr>
+        <th>Име:</th>
+        <td>@Model.FirstName @Model.LastName</td>
+    </tr>
+    <tr>
+        <th>Имейл:</th>
+        <td>@Model.Email</td>
+    </tr>
+    <tr>
+        <th>Роля:</th>
+        <td>@Model.Role</td>
+    </tr>
+</table>

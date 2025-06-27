@@ -1,0 +1,54 @@
+@model IEnumerable<MyMvcApp.Models.Comment>
+
+@{
+    var userRole = Context.Session.GetString("UserRole");
+}
+
+<ul class="list-group mb-4">
+@foreach (var comment in Model)
+{
+    // Ако коментарът не е одобрен, добави бледо червен фон
+    var itemClass = "list-group-item d-flex justify-content-between align-items-center";
+    if (comment.Status == MyMvcApp.Models.CommentStatus.Flagged)
+    {
+        itemClass += " bg-light border border-danger";
+    }
+
+    <li class="@itemClass">
+        <div>
+            <strong>@comment.User?.FirstName @comment.User?.LastName</strong>
+            <span class="text-muted" style="font-size:small;">(@comment.CreatedAt.ToString("g"))</span>
+            <br />
+            @comment.Content
+            @if (comment.Status == MyMvcApp.Models.CommentStatus.Flagged)
+            {
+                <span class="badge bg-warning text-dark ms-2">Чака одобрение</span>
+                @if (userRole == "Moderator" || userRole == "Admin")
+                {
+                    <form asp-action="Approve" asp-route-id="@comment.Id" method="post" style="display:inline;">
+                        <button type="submit" class="btn btn-success btn-sm ms-2">Одобри</button>
+                    </form>
+                }
+            }
+        </div>
+        @if (userRole == "Moderator" || userRole == "Admin")
+        {
+            <div>
+                <a asp-action="Edit" asp-route-id="@comment.Id" class="btn btn-sm btn-warning ms-2">Редактирай</a>
+                <form asp-action="Delete" asp-route-id="@comment.Id" method="post" style="display:inline;">
+                    <button type="submit" class="btn btn-sm btn-danger ms-1" onclick="return confirm('Сигурни ли сте?');">Изтрий</button>
+                </form>
+            </div>
+        }
+    </li>
+}
+</ul>
+
+<h4>Добави коментар</h4>
+<form asp-action="AddOnIndex" method="post">
+    <div class="form-group">
+        <label for="Content">Вашият коментар</label>
+        <textarea id="Content" name="Content" class="form-control" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Публикувай</button>
+</form>

@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MyMvcApp
+build_property.RootNamespace = MyMvcApp
+build_property.ProjectDir = /Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C#_DEMOS/2025_modul07/DEMO2_ASP/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C#_DEMOS/2025_modul07/DEMO2_ASP
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/Comment/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbWVudC9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/Comment/Forum.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tbWVudC9Gb3J1bS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/User/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/User/Profil.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Qcm9maWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/User/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/User/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/User/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9Vc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C\#_DEMOS/2025_modul07/DEMO2_ASP/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-xlfqnswz7s

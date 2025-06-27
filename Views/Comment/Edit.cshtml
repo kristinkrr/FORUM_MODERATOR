@@ -1,0 +1,21 @@
+@model MyMvcApp.Models.Comment
+
+@{
+    ViewData["Title"] = "Редакция на коментар";
+}
+
+<h2>Редакция на коментар</h2>
+
+<form asp-action="Edit" asp-route-id="@Model.Id" method="post">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="UserId" />
+    <input type="hidden" asp-for="CreatedAt" />
+    <input type="hidden" asp-for="Status" />
+    <div class="form-group">
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary mt-2">Запази</button>
+    <a asp-action="Forum" class="btn btn-secondary mt-2">Отказ</a>
+</form>
