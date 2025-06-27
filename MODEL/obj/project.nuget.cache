@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "29kF+Rom5+pdWwss/+by9VBhxWA0XvzeGJ9QEAcQ3sN2rWwYdbh3FBEC7UPWNhYRJwX3R7f6Z99ZELqo3ukQKw==",
+  "success": true,
+  "projectFilePath": "/Users/ivelindilqnovmihaylov/Desktop/UKTC/ИТ - кариера/C#_DEMOS/2025_modul07/MODEL/MODEL.csproj",
+  "expectedPackageFiles": [
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/microsoft.ml/4.0.2/microsoft.ml.4.0.2.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/microsoft.ml.cpumath/4.0.2/microsoft.ml.cpumath.4.0.2.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/microsoft.ml.dataview/4.0.2/microsoft.ml.dataview.4.0.2.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/system.memory/4.6.0/system.memory.4.6.0.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/system.numerics.tensors/8.0.0/system.numerics.tensors.8.0.0.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/system.reflection.emit.lightweight/4.7.0/system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "/Users/ivelindilqnovmihaylov/.nuget/packages/system.threading.channels/8.0.0/system.threading.channels.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
